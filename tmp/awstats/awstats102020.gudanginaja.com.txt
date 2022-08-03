@@ -1,0 +1,679 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 202010 will be lost/reset.
+# Last config file used to build this data file was /home/gudangi4/tmp/awstats/awstats.gudanginaja.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2012                
+POS_TIME 2690                
+POS_VISITOR 15352               
+POS_DAY 19152               
+POS_DOMAIN 3503                
+POS_LOGIN 4014                
+POS_ROBOT 4169                
+POS_WORMS 4667                
+POS_EMAILSENDER 4798                
+POS_EMAILRECEIVER 4941                
+POS_SESSION 19939               
+POS_SIDER 20107               
+POS_FILETYPES 5076                
+POS_DOWNLOADS 5328                
+POS_OS 5376                
+POS_BROWSER 5678                
+POS_SCREENSIZE 6893                
+POS_UNKNOWNREFERER 6967                
+POS_UNKNOWNREFERERBROWSER 7442                
+POS_ORIGIN 7669                
+POS_SEREFERRALS 7806                
+POS_PAGEREFS 7969                
+POS_SEARCHWORDS 8223                
+POS_KEYWORDS 8375                
+POS_MISC 2354                
+POS_ERRORS 8434                
+POS_CLUSTER 3870                
+POS_SIDER_404 8527                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20201101014126 31 6276 11235163535272
+FirstTime 20201001042404
+LastTime 20201031234806
+LastUpdate 20201101152106 31 0 30 0 0
+TotalVisits 172                 
+TotalUnique 89                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 95                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+WindowsMediaPlayerSupport 0 0 0
+TotalMisc 0 0 0
+QuickTimeSupport 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+FlashSupport 0 0 0
+AddToFavourites 0 0 0
+JavaEnabled 0 0 0
+DirectorSupport 0 0 0
+RealPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 4 4 39392 14 14 50692
+1 22 28 562840 122 138 1020096
+2 14 16 295142 10 28 865692
+3 16 16 137872 52 62 102672
+4 16 18 159780 14 30 66512
+5 32 32 315136 26 52 840398
+6 4 4 39392 10 14 15820
+7 20 20 196960 74 80 462738
+8 22 36 1188250 8 10 11300
+9 24 44 1662092 32 68 959140
+10 8 20 874088 8 8 26476
+11 24 72 3338404 164 196 423494
+12 18 18 157568 84 92 208576
+13 16 50 2532258 16 18 91108
+14 22 48 1958282 58 114 1791274
+15 8 20 1063864 32 94 2031224
+16 20 20 196960 50 62 937702
+17 46 60 1450398 14 22 94604
+18 28 28 275744 108 116 218260
+19 36 36 354528 86 106 758976
+20 14 14 137872 16 20 22600
+21 22 42 1683824 160 162 180800
+22 12 12 118176 72 72 98796
+23 10 10 98480 64 76 332968
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 20
+us 184 218 4046240
+pa 96 96 945408
+id 26 86 4657552
+cn 24 56 2688600
+ru 20 20 155532
+gb 18 22 358618
+hk 12 12 118176
+nl 10 10 98480
+de 10 10 98480
+ca 10 58 3200532
+in 8 20 874088
+ip 8 8 78784
+gr 6 6 59088
+il 6 26 1260764
+hu 6 6 59088
+ch 4 4 39392
+fr 4 4 39392
+eu 2 2 19696
+be 2 2 19696
+ua 2 2 19696
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 9
+Googlebot/ 124 4194194 20201030121025 0
+bingbot/ 88 4304198 20201031153342 0
+bot[\s_+:,\.\;\/\\-] 40 393920 20201029020845 0
+bingpreview 16 1043910 20201031163449 0
+no_user_agent 8 64632 20201021134028 0
+Apache\-HttpClient/ 2 19696 20201026174745 0
+Python\-urllib/ 2 19696 20201021175632 0
+[\s_+:,\.\;\/\\-]bot 2 19696 20201002101925 0
+curl 2 19696 20201019235930 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+woff2 20 1075080 0 0
+html 406 3998288 0 0
+woff 2 181744 0 0
+ttf 2 108112 0 0
+jpg 48 2892528 0 0
+php 16 39392 0 0
+xml 2 37356 0 0
+js 64 4433708 0 0
+Unknown 10 27720 0 0
+css 98 6043374 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 18
+win8 2 0
+linux 42 40
+macosx8 4 2
+macosx10 4 4
+Unknown 36 34
+win8.1 38 14
+ios_iphone 18 6
+linuxandroid 72 18
+win10 220 152
+macosx 38 18
+linuxubuntu 96 96
+winxp 10 8
+win7 58 38
+winlong 2 0
+macosx9 16 16
+macosx6 8 8
+winnt 2 2
+macosx11 2 2
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 57
+chrome35.0.1916.47 16 16
+chrome85.0.4183.121 26 6
+chrome11.0.696.71 4 4
+Unknown 24 24
+msie9.0 16 4
+opera12.16 2 0
+firefox57.0 4 4
+chrome32.0.1700.72 2 0
+chrome79.0.3945.88 4 4
+netscape5.0 4 4
+chrome26.0.1410.65 2 2
+chrome39.0.2171.95 2 2
+safari6.1 2 0
+safari13.0.1 26 6
+chrome62.0.2716.151 2 2
+firefox31.0 2 2
+chrome86.0.4240.75 2 2
+opera54.0.2952.51 2 2
+chrome81.0.4044.129 20 20
+chrome68.0.2452.20 2 2
+chrome85.0.4183.127 26 6
+chrome23.0.1271.95 2 0
+chrome78.26.10.1974 2 2
+firefox33.0 2 2
+chrome79.0.3945.136 26 6
+safari11.0 18 6
+firefox67.0 2 2
+mozilla 8 6
+chrome78.0.3904.108 46 46
+safari5.1 8 8
+chrome66.0.3359.139 36 12
+chrome48.0.2564.109 2 2
+chrome80.0.3987.163 96 96
+chrome75.0.3765.0 16 2
+chrome31.0.1650.63 2 0
+firefox54.0 2 2
+chrome68.0.3440.106 4 4
+chrome79.0 8 8
+chrome80.0.3987.122 2 2
+chrome12.0.742.91 2 0
+firefox61.0 4 4
+chrome83.0.4103.97 4 4
+firefox28.0 14 12
+firefox50.0 12 12
+firefox27.0 2 0
+chrome40.0.2214.85 16 16
+msie6.0 8 8
+firefox26.0 2 0
+chrome70.0.3538.102 42 8
+firefox63.0 16 2
+chrome73.0.3683.90 4 4
+firefox81.0 2 2
+chrome80.0.3987.149 6 6
+chrome78.0.3904.97 2 2
+chrome63.0.3239.132 14 14
+chrome76.0.3809.132 44 44
+firefox59.0 2 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 9
+python-requests/2.24.0 20201030144453
+Mozilla/5.0 20201014144315
+Mozilla/5.0_(compatible;_NetcraftSurveyAgent/1.0;__info@netcraft.com) 20201008015429
+Go-http-client/1.1 20201030032215
+Mozilla/5.0_(compatible;_ips-agent) 20201018085813
+Mozilla/6.0_(compatible) 20201011140602
+python-requests/2.19.1 20201003160449
+RestSharp/105.2.3.0 20201015164057
+Mozilla/5.0_Firefox/33.0 20201017094004
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 4
+Go-http-client/1.1 20201030032215
+RestSharp/105.2.3.0 20201015164057
+python-requests/2.19.1 20201003160449
+python-requests/2.24.0 20201030144453
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 400 418
+From1 2 2
+From2 6 6
+From3 8 8
+From4 42 234
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com 6 6
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 3
+https://brandnewblogs.com 4 4
+http://172.105.125.184 2 2
+http://com.all-url.info/com/gudanginaja.com/ 2 2
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 1
+404 1356 1532280
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 192
+//wp-content/plugins/wp-file-manager/lib/files/badmin1.php 2 -
+/staging/rss/catalog/notifystock 2 -
+/demo/rss/order/new 2 -
+/staging/rss/order/new 2 -
+/common/admin/PhotoGallery2/Telerik.Web.UI.DialogHandler.aspx 2 -
+/shop/rss/order/new 2 -
+/administrator/index.php 6 http://gudanginaja.com/administrator/
+/Telerik.Web.UI.DialogHandler.aspx 2 -
+/rss/order/new 2 -
+/adminer-4.0.0.php 2 -
+/vendor/phpunit/phpunit/src/Util/PHP/up.php 2 -
+/old/rss/order/new 2 -
+/admin/ 22 -
+/rss/catalog/review 2 -
+/wp2/ 4 -
+/blogs/wp-includes/wlwmanifest.xml 4 -
+/magento/rss/catalog/review 2 -
+/www/wp-includes/wlwmanifest.xml 2 -
+/cms/ 4 -
+//wp-admin/install.php 4 -
+/web/ 4 -
+/wp-content/plugins/wp-file-manager/readme.txt 2 -
+/demo/rss/catalog/notifystock 2 -
+/wp/wp-login.php 4 -
+//wp-content/plugins/wp-file-manager/lib/php/connector.minimal.php 4 -
+/DesktopModules/YA.Controls/AngularMain/Telerik.Web.UI.DialogHandler.aspx 2 -
+/Modules/CMS/Telerik.Web.UI.DialogHandler.aspx 2 -
+/common/admin/Calendar/Telerik.Web.UI.DialogHandler.aspx 2 -
+////nette.micro 2 -
+/images/editor/separator.gif 4 -
+/shop/index.php/admin/ 2 -
+/Admin/ServerSide/Telerik.Web.UI.DialogHandler.aspx 2 -
+/demo/index.php/admin/ 2 -
+/demo/wp-includes/wlwmanifest.xml 2 -
+/admin 12 -
+/dashboard/UserControl/CMS/Page/Telerik.Web.UI.DialogHandler.aspx 2 -
+/demo/rss/catalog/review 2 -
+/rss/catalog/notifystock 2 -
+/shop/rss/catalog/review 2 -
+/administrator/language/en-GB/install.xml 4 -
+/wp-content/plugins/wp-file-manager/lib/php/connector.minimal.php 2 www.google.com
+/store/wp-includes/wlwmanifest.xml 2 -
+/home/ 4 -
+/main/wp-includes/wlwmanifest.xml 2 -
+/DesktopModules/Base/EditControls/Telerik.Web.UI.DialogHandler.aspx 2 -
+/old/index.php/admin/ 2 -
+/site/ 4 -
+/2019/ 4 -
+/dev/errors/503.php 2 -
+/shop/rss/catalog/notifystock 2 -
+/DesktopModules/News/Telerik.Web.UI.DialogHandler.aspx 2 -
+/magento/index.php/admin/ 2 -
+/staging/errors/503.php 2 -
+/AsiCommon/Controls/ContentManagement/ContentDesigner/Telerik.Web.UI.DialogHandler.aspx 2 -
+/admin/view/javascript/common.js 4 -
+/staging/downloader/index.php 2 -
+/demo/ 4 -
+/store/index.php/admin/ 2 -
+/fckeditor/editor/filemanager/connectors/php/upload.php 2 -
+/dev/index.php/admin/ 2 -
+/old/errors/503.php 2 -
+/wordpress/ 20 -
+/staging/rss/catalog/review 2 -
+/misc/ajax.js 4 -
+/wp-admin/install.php 4 -
+/magento/rss/catalog/notifystock 2 -
+/errors/503.php 2 -
+/store/rss/order/new 2 -
+/portal/channels/fa/Cms_HtmlText_Manage/Telerik.Web.UI.DialogHandler.aspx 2 -
+/dev/rss/catalog/notifystock 2 -
+/site/wp-includes/wlwmanifest.xml 36 -
+/shop/downloader/index.php 2 -
+/wp-includes/wlwmanifest.xml 38 -
+/test/downloader/index.php 2 -
+/shop/wp-includes/wlwmanifest.xml 30 -
+/wp-admin/ 6 http://gudanginaja.com/wp-login.php
+/blog 2 -
+/modules/shop/manage/telerik.web.ui.dialoghandler.aspx 2 -
+/old/rss/catalog/notifystock 2 -
+/blog/wp-login.php 6 -
+/2018/wp-includes/wlwmanifest.xml 28 -
+/index.php/admin/ 2 -
+/old-wp/ 4 -
+/DesktopModules/Rad%20EditorProvider/DialogHandler.aspx 2 -
+/Providers/HtmlEditorProviders/Telerik/Telerik.Web.UI.DialogHandler.aspx 2 -
+/store/rss/catalog/review 2 -
+/portal/wp-includes/wlwmanifest.xml 2 -
+/media/wp-includes/wlwmanifest.xml 28 -
+/demo/errors/503.php 2 -
+/shop/errors/503.php 2 -
+/staging/index.php/admin/ 2 -
+/backup/wp-login.php 2 -
+/dev/rss/order/new 2 -
+/2015/wp-includes/wlwmanifest.xml 2 -
+/api/signup 2 -
+/test/errors/503.php 2 -
+/blog/wp-includes/wlwmanifest.xml 36 -
+///wp-content/plugins/wp-file-manager/lib/php/connector.minimal.php 4 -
+/admin.php 6 -
+/vendor/phpunit/phpunit/src/Util/PHP/up2.php 2 -
+/wp-login.php 94 -
+/2018/ 4 -
+/Components/General/Admin/UserControl/Telerik.Web.UI.DialogHandler.aspx 2 -
+/en/wp-includes/wlwmanifest.xml 2 -
+/ads.txt 8 -
+/wordpress/wp-includes/wlwmanifest.xml 34 -
+/assets/logos/icon/icon3.png 4 -
+/dev/rss/catalog/review 2 -
+/test/rss/catalog/notifystock 2 -
+/sito/wp-includes/wlwmanifest.xml 26 -
+/bak/ 4 -
+/old/downloader/index.php 2 -
+/wp/wp-admin/install.php 2 -
+/wp1/ 4 -
+/DesktopModules/dnnWerk.RadEditorProvider/DialogHandler.aspx 2 -
+/DesktopModules/TelerikWebUI/RadEditorProvider/Telerik.Web.UI.DialogHandler.aspx 2 -
+/magento/errors/503.php 2 -
+/common/admin/Jobs2/Telerik.Web.UI.DialogHandler.aspx 2 -
+/dev/downloader/index.php 2 -
+/wp/wp-includes/wlwmanifest.xml 34 -
+/cms/wp-includes/wlwmanifest.xml 34 -
+/wordpress/wp-admin/install.php 10 -
+/wp-includes/js/jquery/jquery.js 4 -
+/web/wp-includes/wlwmanifest.xml 34 -
+/2017/wp-includes/wlwmanifest.xml 2 -
+///wp-content/plugins/wp-file-manager/lib/files/badmin1.php 2 -
+/new/wp-includes/wlwmanifest.xml 2 -
+/new-site/ 4 -
+/api/order 4 -
+/App_Master/Telerik.Web.UI.DialogHandler.aspx 2 -
+/store/downloader/index.php 2 -
+/1/wp-includes/wlwmanifest.xml 2 -
+/assets/logos/icon/icon2.png 2 -
+/store/rss/catalog/notifystock 2 -
+/test/ 4 -
+/old/ 4 -
+/2016/wp-includes/wlwmanifest.xml 2 -
+/test/wp-includes/wlwmanifest.xml 32 -
+/2020/ 4 -
+//wp-login.php 2 -
+/robots.txt 162 -
+/magento/downloader/index.php 2 -
+/adminer-3.7.1.php 2 -
+/////nette.micro 2 -
+/v2/ 4 -
+/blog/robots.txt 12 -
+/backup/ 4 -
+/vendor/phpunit/phpunit/src/Util/PHP/up3.php 2 -
+/DesktopModule/UIQuestionControls/UIAskQuestion/Telerik.Web.UI.DialogHandler.aspx 2 -
+/v1/ 4 -
+/staging/wp-includes/wlwmanifest.xml 2 -
+/dev/ 4 -
+/install/ 4 -
+/beta/wp-includes/wlwmanifest.xml 2 -
+/bk/ 4 -
+/test/index.php/admin/ 2 -
+/wp/ 16 -
+/temp/ 4 -
+/downloader/index.php 2 -
+/wp2/wp-includes/wlwmanifest.xml 30 -
+/main/ 4 -
+/administrator/ 10 -
+/demo/downloader/index.php 2 -
+/assets/logos/icon/icon4.png 4 -
+/Admin/Telerik.Web.UI.DialogHandler.aspx 2 -
+/dev/wp-includes/wlwmanifest.xml 2 -
+/cms/portlets/Telerik.Web.UI.DialogHandler.aspx 2 -
+/store/errors/503.php 2 -
+/magento/rss/order/new 2 -
+/test/rss/catalog/review 2 -
+/news/wp-includes/wlwmanifest.xml 32 -
+/blog/ 16 -
+/assets/logos/icon/icon1.png 4 -
+/el/Providers/HtmlEditorProviders/Telerik/Telerik.Web.UI.DialogHandler.aspx 2 -
+/old/rss/catalog/review 2 -
+/wp1/wp-includes/wlwmanifest.xml 30 -
+/new/ 4 -
+/DesktopModules/TNComments/Telerik.Web.UI.DialogHandler.aspx 2 -
+/home/wp-includes/wlwmanifest.xml 2 -
+/admin/index.php 2 -
+/js/header-rollup-554.js 4 -
+/administrator/help/en-GB/toc.json 4 -
+/website/wp-includes/wlwmanifest.xml 32 -
+/old-site/ 4 -
+/DesktopModules/Admin/RadEditorProvider/DialogHandler.aspx 2 -
+/old/wp-includes/wlwmanifest.xml 2 -
+/test/rss/order/new 2 -
+/plugins/system/debug/debug.xml 4 -
+/_controls/responsive/Telerik.Web.UI.DialogHandler.aspx 2 -
+/admin/includes/general.js 4 -
+/tmp/ 4 -
+/2019/wp-includes/wlwmanifest.xml 26 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 95
+179.43.171.74 96 96 945408 20201031175408
+35.239.103.177 16 16 157568 20201018203729
+185.136.167.217 14 14 96444 20201008094048
+103.62.48.237 12 12 118176 20201021205047
+23.102.160.204 12 12 118176 20201011185136
+52.142.160.113 12 12 118176 20201009145719
+95.211.211.232 10 10 98480 20201028191411
+192.99.225.98 10 58 3200532 20201015112922
+138.246.253.15 10 10 98480 20201031234806
+199.244.88.132 8 8 78784 20201029230628
+51.161.80.237 8 8 78784 20201024190535
+38.122.112.147 8 8 78784 20201006171634
+13.229.135.195 8 8 39392 20201020141412
+51.104.33.200 6 6 59088 20201031065658
+114.122.198.38 6 26 1526256 20201003214909
+2001:4ca0:108:42::15 6 6 59088 20201025235356
+116.206.42.89 6 26 1526256 20201001141951
+178.128.105.173 6 6 59088 20201003210138
+3.0.209.131 6 6 59088 20201010113601
+45.136.173.60 6 18 854392 20201014085435
+61.135.152.137 6 18 1044168 20201001155859
+182.2.164.173 6 26 1526256 20201026131337
+52.235.42.212 6 6 59088 20201013014514
+208.80.194.41 6 6 59088 20201021023416
+180.244.234.136 6 26 1526256 20201018091845
+64.246.165.160 2 2 19696 20201012141957
+173.255.246.21 2 2 19696 20201008165704
+206.81.14.128 2 2 19696 20201011160313
+35.168.110.36 2 2 19696 20201015204441
+119.8.40.175 2 2 19696 20201010070150
+82.80.249.211 2 2 19696 20201011133101
+108.175.2.181 2 2 19696 20201011191742
+54.202.56.194 0 2 162168 
+104.131.35.56 2 2 19696 20201008015429
+72.13.62.27 2 2 19696 20201018085813
+69.50.244.86 2 2 19696 20201002072451
+84.236.19.1 2 2 19696 20201004082432
+52.149.132.240 4 4 39392 20201011192041
+52.177.121.220 2 2 19696 20201022025528
+40.112.249.15 4 4 19696 20201022034740
+87.97.60.28 2 2 19696 20201014144315
+178.214.245.131 2 2 19696 20201027220426
+2a01:4f9:2b:fbff:49fd:5d90:df38:21a3 2 2 19696 20201002115631
+156.146.56.115 4 4 39392 20201020141115
+62.210.83.78 2 2 19696 20201002102229
+65.52.32.40 4 4 39392 20201024114501
+82.80.249.194 0 2 93944 
+35.238.78.110 4 4 39392 20201008011554
+209.127.38.38 2 14 815000 20201010103928
+36.79.130.177 4 4 39392 20201023182422
+52.250.13.141 0 4 159482 
+62.149.29.38 2 2 19696 20201016011122
+13.66.53.236 4 4 39392 20201030144453
+173.212.199.138 2 2 19696 20201022215757
+47.103.136.32 4 4 39392 20201010070152
+51.143.95.48 0 4 181354 
+35.202.34.253 2 2 19696 20201015015812
+3.238.119.123 2 2 19696 20201025055817
+51.116.182.108 4 4 39392 20201027014239
+208.80.194.42 2 2 19696 20201028055809
+34.222.212.33 2 2 19696 20201026022958
+134.209.46.105 2 2 19696 20201006000618
+161.35.124.51 4 4 39392 20201020042629
+82.80.230.228 0 4 200210 
+34.223.23.172 2 2 19696 20201030032140
+104.198.157.73 4 4 39392 20201014073021
+47.90.76.10 2 2 19696 20201010070153
+13.68.245.143 2 2 19696 20201021230019
+82.212.188.253 2 2 19696 20201019031652
+34.222.173.127 2 2 19696 20201001042404
+185.81.157.12 2 2 19696 20201027115617
+18.183.105.164 2 2 19696 20201003123257
+109.167.158.74 2 2 19696 20201018195642
+125.164.122.143 4 4 39392 20201031014253
+66.42.127.6 2 2 19696 20201013175732
+139.155.16.233 4 4 39392 20201014023303
+94.21.92.65 2 2 19696 20201021044823
+54.190.4.247 2 2 19696 20201030032215
+67.227.204.14 2 2 19696 20201007083307
+3.238.88.213 4 4 39392 20201006210155
+52.175.213.239 2 2 19696 20201014151748
+193.27.229.26 4 4 39392 20201029034252
+62.115.15.146 2 2 19696 20201017094004
+109.252.120.145 2 2 19696 20201001124347
+54.149.156.222 2 2 19696 20201018012953
+154.12.163.187 2 2 19696 20201010103930
+34.217.100.45 2 2 19696 20201001042450
+116.232.196.38 2 2 19696 20201003160449
+167.86.104.186 2 2 19696 20201007173336
+82.80.249.137 4 18 946914 20201011133128
+34.209.169.215 0 2 178952 
+209.127.38.29 2 2 19696 20201010103927
+116.202.129.130 2 2 19696 20201012084501
+69.162.126.138 4 4 39392 20201004030159
+104.192.108.9 2 16 1017086 20201005174323
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20201001 18 50 2629512 5
+20201002 6 6 59088 3
+20201003 22 42 1683824 6
+20201004 10 10 98480 4
+20201005 2 16 1017086 1
+20201006 16 16 157568 4
+20201007 8 8 78784 4
+20201008 28 28 234316 7
+20201009 14 14 137872 6
+20201010 28 40 1071048 10
+20201011 28 48 1477420 10
+20201012 8 8 78784 4
+20201013 8 8 78784 4
+20201014 18 30 972568 6
+20201015 20 68 3299012 6
+20201016 12 12 118176 6
+20201017 12 12 118176 4
+20201018 26 50 2064336 9
+20201019 18 18 157568 6
+20201020 16 24 478708 8
+20201021 24 24 236352 10
+20201022 12 12 98480 6
+20201023 8 8 78784 3
+20201024 18 18 177264 5
+20201025 8 8 78784 4
+20201026 12 32 1585344 4
+20201027 14 14 137872 6
+20201028 8 8 78784 4
+20201029 10 10 98480 5
+20201030 14 14 137872 7
+20201031 12 12 118176 5
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 3
+0s-30s 166
+30mn-1h 1
+30s-2mn 5
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 9
+/ 406 3998288 167 159
+/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 12 0 2 3
+/login 10 27720 1 3
+/landing/vendor/simple-line-icons/fonts/Simple-Line-Icons.woff2 10 300640 0 0
+/landing/vendor/fontawesome-free/webfonts/fa-brands-400.woff2 10 774440 0 4
+/index.php 4 39392 2 2
+/landing/vendor/simple-line-icons/fonts/Simple-Line-Icons.ttf 2 108112 0 0
+/landing/vendor/fontawesome-free/webfonts/fa-brands-400.woff 2 181744 0 0
+/vendor/phpunit/phpunit/build.xml 2 37356 0 0
+END_SIDER

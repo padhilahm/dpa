@@ -1,0 +1,640 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 202101 will be lost/reset.
+# Last config file used to build this data file was /home/gudangi4/tmp/awstats/awstats.gudanginaja.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2012                
+POS_TIME 2689                
+POS_VISITOR 11375               
+POS_DAY 15401               
+POS_DOMAIN 3567                
+POS_LOGIN 4030                
+POS_ROBOT 4185                
+POS_WORMS 4752                
+POS_EMAILSENDER 4883                
+POS_EMAILRECEIVER 5026                
+POS_SESSION 16276               
+POS_SIDER 16483               
+POS_FILETYPES 5161                
+POS_DOWNLOADS 5468                
+POS_OS 5516                
+POS_BROWSER 5803                
+POS_SCREENSIZE 7187                
+POS_UNKNOWNREFERER 7261                
+POS_UNKNOWNREFERERBROWSER 7838                
+POS_ORIGIN 8086                
+POS_SEREFERRALS 8232                
+POS_PAGEREFS 8459                
+POS_SEARCHWORDS 8883                
+POS_KEYWORDS 9035                
+POS_MISC 2353                
+POS_ERRORS 9094                
+POS_CLUSTER 3886                
+POS_SIDER_404 9230                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20210201000054 27 3398 5909283878770
+FirstTime 20210101000041
+LastTime 20210131233050
+LastUpdate 20210201191955 27 0 26 0 0
+TotalVisits 148                 
+TotalUnique 93                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 96                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+WindowsMediaPlayerSupport 0 0 0
+JavascriptDisabled 0 0 0
+RealPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+FlashSupport 0 0 0
+JavaEnabled 0 0 0
+TotalMisc 0 0 0
+PDFSupport 0 0 0
+DirectorSupport 0 0 0
+QuickTimeSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 122 122 1217804 32 88 2324672
+1 126 126 1257732 8 14 234792
+2 132 134 1305060 6 6 42188
+3 142 144 1544536 6 10 46708
+4 130 132 1459828 10 28 106148
+5 140 144 1738600 14 28 87680
+6 136 136 1342776 10 34 544876
+7 200 238 4548890 82 98 141252
+8 136 138 1501428 24 40 641162
+9 148 168 2829548 6 18 567914
+10 220 306 9784440 16 30 46708
+11 182 236 5586452 18 38 104716
+12 138 138 1307364 8 16 35784
+13 184 274 9476476 10 18 44448
+14 166 174 3110284 20 42 1957892
+15 204 280 8731012 18 26 46708
+16 354 476 13350740 74 84 129952
+17 156 192 4171232 14 20 265588
+18 444 528 10711698 70 154 941768
+19 248 318 8238228 30 68 2026824
+20 476 516 9414876 66 110 1246852
+21 138 138 1416206 28 34 109236
+22 128 128 1260816 6 12 66672
+23 124 124 1237768 26 32 195496
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 16
+id 4164 4700 86737718
+in 96 150 4273834
+us 92 130 3524210
+ip 86 118 3331542
+pl 68 68 2678200
+nl 12 48 2681122
+ca 10 10 99820
+de 10 10 99820
+gb 10 30 1391364
+se 8 8 79856
+jp 6 26 1526524
+fr 4 4 39928
+ma 2 2 19964
+tr 2 2 19964
+ru 2 2 19964
+cn 2 2 19964
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 11
+Googlebot/ 106 3346828 20210131210831 0
+java 64 3822368 20210128143057 0
+bingpreview 46 2752610 20210131005803 0
+bingbot/ 24 520134 20210131090239 0
+YandexBot/ 20 199640 20210127053304 0
+no_user_agent 14 139748 20210129232523 0
+spider 6 59892 20210115024336 0
+(firefox/)([0-9]\.|[0-1][0]\.) 4 39928 20210127003145 0
+facebookexternalhit/ 2 19964 20210115080251 0
+Konqueror/ 2 19964 20210101011447 0
+SafeDNSBot 2 19964 20210121220755 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 12
+jpg 214 12082676 0 0
+php 4 39928 0 0
+ttf 20 1242152 0 0
+png 40 9732668 0 0
+Unknown 1060 10719468 0 0
+xml 56 67928 0 0
+woff2 138 7894440 0 0
+js 218 13619764 0 0
+woff 16 1453952 0 0
+jpeg 6 971898 0 0
+html 3280 32740928 0 0
+css 258 15977992 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 16
+win10 1720 1154
+winxp 6 6
+macosx9 2 2
+macosx10 6 6
+win7 54 42
+winnt 8 8
+Unknown 3024 3004
+linuxandroid 138 98
+linux 132 84
+macosx11 2 2
+macosx 148 126
+ios_iphone 44 24
+win2003 2 2
+linuxubuntu 2 2
+macosx8 2 2
+win8.1 20 12
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 62
+chrome66.0.3359.139 14 6
+firefox49.0 4 4
+chrome66.0.3359.181 12 12
+safari14.0.1 26 6
+chrome50.0.2661.102 4 4
+chrome51.0.2704.84 2 2
+chrome89.0.4389.23 264 240
+chrome56.0.2896.3 4 4
+chrome88.0.4324.104 128 44
+chrome49.0.2623.112 2 2
+chrome71.0.3563.0 44 8
+firefox57.0 4 4
+opera73.0.3856.344 66 30
+chrome73.0.3683.90 4 4
+chrome80.0.3987.122 4 4
+epiphany 2 2
+firefox58.0 4 4
+chrome41.0.2225.0 2 2
+chrome85.0.4183.83 28 8
+chrome81.0.4044.129 24 24
+opera36.0.2130.32 2 2
+mozilla 34 14
+chrome45.0.2454.94 2 2
+chrome90.0.4400.8 62 52
+opera46.0.2597.57 2 2
+chrome50.0.2227.0 12 12
+firefox60.0 12 12
+chrome70.0.3538.77 2 2
+opera10.10 2 2
+netscape5.0 2 2
+chrome83.0.4103.97 6 6
+chrome36.0.1985.67 2 2
+opera11.61 2 2
+chrome88.0.4324.93 72 58
+chrome71.0.3578.141 22 6
+opera52.0.2871.99 12 12
+chrome87.0.4280.141 644 446
+chrome40.0.2214.85 20 20
+chrome83.0.4103.116 4 4
+chrome84.0.4147.135 26 6
+chrome35.0.1916.47 2 2
+firefox72.0 6 4
+chrome41.0.2227.0 4 4
+chrome84.0.4147.105 2 2
+firefox28.0 2 2
+chrome26.0.1410.65 2 2
+firefox84.0 94 44
+opera9.80 4 4
+opera54.0.2952.71 2 2
+msie11.0 8 8
+chrome71.0.3578.98 2 2
+chrome87.0.4280.88 232 156
+Unknown 2988 2988
+chrome83.0.4103.101 56 56
+firefox85.0 62 40
+firefox59.0 2 2
+chrome79.0.3945.88 14 14
+msie9.0 12 0
+chrome76.0.3809.71 24 6
+safari14.0.2 18 18
+chrome80.0.3987.149 2 2
+chrome88.0.4324.96 188 138
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 9
+Mozilla/5.0_(compatible;_NetcraftSurveyAgent/1.0;__info@netcraft.com) 20210129190005
+Cpanel-HTTP-Client/1.0 20210114095833
+Mozilla/5.0 20210108090206
+Mozilla/5.0_(compatible;_ips-agent) 20210108202640
+Go-http-client/1.1 20210131233050
+Mozilla/5.0_(compatible;_Let's_Encrypt_validation_server;__https://www.letsencrypt.org) 20210114101413
+WhatsApp/2.2100.7_N 20210130161438
+colly_-_https://github.com/gocolly/colly/v2 20210116062418
+Mozilla/5.0_(compatible;_Dataprovider.com) 20210114162145
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 4
+colly_-_https://github.com/gocolly/colly/v2 20210116062418
+WhatsApp/2.2100.7_N 20210130161438
+Go-http-client/1.1 20210131233050
+Cpanel-HTTP-Client/1.0 20210114095833
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 3250 3262
+From1 0 0
+From2 70 72
+From3 32 32
+From4 1222 1944
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 5
+bing 2 2
+yandexru 12 12
+www_google_com 50 52
+google_com 4 4
+r_search_yahoo_com 2 2
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 4
+http://mail.gudanginaja.com 24 24
+http://facebook.com//twitter.com//vk.com 4 4
+https://downloadgalaxy.eu/savage-garden-santa-monica-hard-rock-live 2 2
+https://downloadgalaxy.eu/how-to-calculate-quickly-full-course-in-speed-arithmetic-more-than-000-problems-with-solutions 2 2
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+403 48 479136
+303 102 0
+404 470 531100
+500 10 4760
+307 44 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 67
+/js/kcfinder/browse.php 2 -
+/ckeditor/kcfinder/browse.php 2 -
+/2018/ 4 -
+/humans.txt 8 -
+/wp2/ 4 -
+/demo/ 4 -
+/assets/gambar/COB2110_601113394e1aa.png 12 https://gudanginaja.com/Barang
+/assets/ckeditor/kcfinder/browse.php 2 -
+/ads.txt 10 -
+/assets/gambar/TES21120_60110f576e0af.png 16 https://gudanginaja.com/barang
+/emergency.php 8 -
+/wordpress/wp-admin/install.php 2 -
+/home/ 4 -
+//wp-admin/install.php 4 -
+/19837437_notfound.html 4 http://gudanginaja.com
+/wp-login.php 16 -
+/panel/kcfinder/browse.php 2 -
+/assets/js/kcfinder/browse.php 2 -
+/sites/all/libraries/elfinder/src/connectors/php/connector.php 2 http://www.google.com/
+/dup-installer/main.installer.php 2 -
+/2019/ 4 -
+/misc/print.css 4 http://www.google.com/
+/assets/kcfinder/browse.php 2 -
+/sites/all/libraries/elfinder/connectors/php/connector.php 2 http://www.google.com/
+//vendor/phpunit/phpunit/phpunit.xsd 4 -
+/admin/ckeditor/kcfinder/browse.php 2 -
+/sites/all/libraries/elfinder/elfinder.html 2 http://www.google.com/
+/robots.txt 170 -
+/cms/ 4 -
+/site/ 4 -
+/adminer.php 2 -
+/new-site/ 4 -
+/test/ 4 -
+/old/ 4 -
+/sitemap.xml 10 -
+/.well-known/security.txt 2 -
+/tmp/ 4 -
+/old-site/ 4 -
+/admin/kcfinder/browse.php 2 -
+/_ignition/execute-solution 4 -
+/new/ 4 -
+/wp1/ 4 -
+/v1/ 4 -
+/blog/ 4 -
+/wp/ 4 -
+/backup/ 4 -
+/wp-admin/install.php 4 -
+/temp/ 4 -
+/themes/README.txt 4 http://www.google.com/
+/web/ 4 -
+/old-wp/ 4 -
+/bak/ 4 -
+/2020/ 4 -
+/__media__/js/netsoltrademark.php 2 -
+/bk/ 4 -
+/assets/admin/ckeditor/kcfinder/browse.php 2 -
+/website/wp-includes/wlwmanifest.xml 2 -
+//vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 12 -
+/dev/ 4 -
+/admin/view/javascript/common.js 4 -
+/assets/gambar/WKK21154_6011fa5027c33.png 20 https://gudanginaja.com/barang
+/install/ 4 -
+/v2/ 4 -
+/kcfinder/browse.php 2 -
+/wordpress/ 4 -
+/main/ 4 -
+/vendor/phpunit/phpunit/composer.json 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 96
+103.247.9.107 2964 2964 29586648 20210131233050
+36.75.67.241 468 540 10317882 20210128205829
+125.167.247.17 168 192 3854666 20210130073410
+36.75.67.189 138 188 5830136 20210123164833
+114.5.104.142 110 112 1723836 20210128204116
+77.79.198.14 68 68 2678200 20210128143145
+103.125.43.12 60 60 178008 20210127160714
+103.23.233.152 50 120 6672256 20210125133423
+2404:c0:4c0b:2::ff0:81db 42 48 1152978 20210129194123
+114.122.206.56 40 62 2566566 20210128210825
+182.1.207.151 40 44 1412466 20210131101305
+36.75.65.102 30 78 4614876 20210113161705
+103.213.128.144 30 64 2569302 20210106193549
+180.247.113.140 30 66 2733478 20210126113711
+103.247.196.5 28 64 2903378 20210130161145
+114.5.245.85 18 18 486616 20210129075920
+36.75.67.80 18 62 4412258 20210124105455
+36.75.67.22 14 62 3186832 20210129190030
+103.247.196.6 12 12 280096 20210130161959
+2001:4ca0:108:42::24 10 10 99820 20210131024929
+138.246.253.24 10 10 99820 20210129213858
+118.99.111.0 8 28 1546488 20210113095105
+2400:8901::f03c:92ff:fee2:c0e3 8 8 512 20210114095833
+77.247.181.165 8 44 2641194 20210127174957
+111.92.162.132 6 26 1526524 20210130071718
+158.69.241.134 2 2 19964 20210114061823
+34.213.24.118 2 2 19964 20210124040904
+47.242.16.129 2 2 19964 20210112170629
+40.75.65.193 2 2 3084 20210106225259
+61.247.47.95 6 26 1526524 20210106133940
+20.184.27.6 2 2 19964 20210121050807
+2404:c0:2f10::128e:1a22 6 22 1321878 20210113113121
+38.18.35.10 2 2 19964 20210122030005
+51.77.246.76 2 22 1311508 20210114162143
+192.71.103.173 2 2 19964 20210111183251
+64.246.165.200 2 2 19964 20210120123359
+47.242.209.202 2 2 19964 20210116053614
+52.10.146.109 2 2 19964 20210113072210
+91.227.68.139 2 2 19964 20210127033017
+23.228.109.146 4 4 39928 20210111115520
+195.154.61.206 4 4 39928 20210116074501
+192.71.30.89 2 2 19964 20210116191449
+150.136.152.118 4 4 39928 20210114070520
+167.71.163.205 4 4 39928 20210129052419
+165.22.12.139 4 4 39928 20210105132132
+2605:a140:2044:8825::1 4 4 25152 20210116062418
+13.66.139.145 0 6 486504 
+35.247.47.212 2 2 19964 20210128054833
+159.203.78.37 2 2 19964 20210106171357
+46.45.185.186 2 2 19964 20210107191631
+140.213.15.210 4 4 4852 20210119123948
+47.242.4.73 2 2 19964 20210125075300
+192.36.53.165 2 2 19964 20210106124255
+138.128.2.190 2 2 19964 20210120225627
+205.169.39.36 6 24 1205718 20210114101619
+207.154.192.248 2 2 19964 20210110160846
+145.239.91.37 2 2 19964 20210102093630
+2600:1f16:269:da00:4ec6:1cf7:34d5:6263 2 2 174 20210114101412
+54.184.108.235 2 2 19964 20210126083824
+51.222.43.126 6 6 59892 20210114114834
+103.120.168.13 6 26 1526524 20210106102613
+2600:1f14:804:fd02:1be3:bfea:ffcc:a21f 2 2 174 20210114101412
+188.166.76.197 2 2 19964 20210110160846
+23.94.81.70 2 2 19964 20210111032335
+2607:5300:60:7627:: 4 6 27364 20210103021845
+72.13.46.3 2 2 19964 20210108202640
+13.66.139.73 0 4 357904 
+199.244.88.132 2 2 19964 20210120080126
+202.102.144.121 2 2 19964 20210108090206
+44.234.32.47 2 2 19964 20210126031412
+150.129.59.5 6 26 1526524 20210129152531
+23.250.99.108 2 2 19964 20210101011457
+54.221.27.173 2 2 19964 20210114191439
+105.67.2.228 2 2 19964 20210114181953
+13.66.139.72 0 2 178952 
+34.223.93.226 2 2 19964 20210124040808
+150.136.174.98 4 4 39928 20210130165846
+185.56.80.65 2 2 19964 20210102093625
+206.180.173.19 2 2 19964 20210118062817
+103.247.196.7 2 2 19964 20210130161054
+58.85.43.237 6 26 1526524 20210121191241
+54.244.193.13 2 2 19964 20210130030702
+35.197.31.4 2 2 19964 20210128054831
+66.115.149.229 6 14 513452 20210125140615
+192.36.70.176 2 2 19964 20210101065557
+2600:3000:1511:200::1f 2 2 174 20210114101413
+52.37.186.247 2 2 19964 20210114154419
+2404:c0:4c0b:2::102b:3c2d 6 14 703316 20210130072800
+165.227.116.59 2 2 19964 20210129190005
+54.174.100.114 2 2 19964 20210131031931
+134.209.214.176 2 2 19964 20210118175911
+3.85.128.139 4 4 39928 20210118170701
+120.188.38.86 4 4 4852 20210119121954
+35.247.79.218 4 4 39928 20210128054833
+173.254.201.209 2 2 19964 20210124122815
+47.242.158.40 2 2 19964 20210117155652
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20210101 98 98 978236 4
+20210102 100 100 998200 3
+20210103 100 102 985636 2
+20210104 100 100 998200 3
+20210105 100 100 998200 3
+20210106 144 218 6623634 8
+20210107 98 98 978236 2
+20210108 100 100 998200 3
+20210109 98 98 978236 2
+20210110 100 100 998200 3
+20210111 106 106 1058092 5
+20210112 98 98 978236 2
+20210113 140 224 8441514 5
+20210114 136 174 3656208 14
+20210115 96 100 1299392 1
+20210116 108 108 1063280 5
+20210117 100 100 998200 3
+20210118 106 110 1399212 5
+20210119 156 156 1101204 8
+20210120 146 196 6163896 5
+20210121 108 132 2850732 4
+20210122 96 96 958272 4
+20210123 234 284 6788408 2
+20210124 120 164 5430422 6
+20210125 110 138 3018212 4
+20210126 164 200 5070778 5
+20210127 110 146 3659358 4
+20210128 770 866 17432200 10
+20210129 284 372 9817594 9
+20210130 208 282 7412940 10
+20210131 140 144 2410666 4
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 34
+2mn-5mn 3
+0s-30s 92
+15mn-30mn 4
+5mn-15mn 4
+30s-2mn 6
+30mn-1h 5
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 78
+/ 3280 32740928 133 106
+/Barang 92 1242908 0 1
+/login 90 237884 1 4
+/masuk 74 1028436 0 0
+/keluar 70 832938 0 1
+/landing/vendor/fontawesome-free/webfonts/fa-brands-400.woff2 58 4491752 0 7
+/landing/vendor/simple-line-icons/fonts/Simple-Line-Icons.woff2 58 1743712 2 4
+//vendor/phpunit/phpunit/phpunit.xml 56 67928 6 6
+/dashboard 46 569124 0 1
+/keluar/surat_jalan 46 500216 0 0
+/uang_keluar 42 681662 0 1
+/dashboard/bos 36 538452 0 1
+/uang 34 406014 0 0
+/toko 28 329770 0 1
+/pengguna 26 284000 0 0
+/pelanggan 26 274746 0 2
+/keluar/tambah 26 486564 0 1
+/satuan 26 292552 0 0
+/kategori 24 286500 0 0
+/sb-admin/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 22 1658976 0 0
+/barang 22 329252 0 1
+/keluar/get_all_barang 22 3616 0 0
+/uang_keluar/tambah 20 284244 0 0
+/keluar/keranjang_barang 20 14240 0 0
+/masuk/tambah 20 416052 0 0
+/keluar/cetak/Sobat%20Masjid_files/css 6 33900 0 0
+/.well-known/acme-challenge/WEAZGSDC_B7C31R89E98Y1-YQA-YF2T9 2 128 1 0
+/index.php 4 39928 1 1
+/uang_keluar/get_all 18 1074 0 0
+/keluar/detail_surat/BK1611788553 2 23380 0 0
+/keluar/detail_surat/BK1609224421 4 44120 0 0
+/masuk/keranjang_barang 10 6928 0 0
+/masuk/cetak/BM1611839738 2 9516 0 0
+/keluar/cetak/BK1611788553 2 6956 0 0
+/login/proses_login 14 0 0 0
+/keluar/get_all_gudang 12 5664 0 0
+/keluar/tambah_surat_jalan/BK1611839857 2 21748 0 0
+/uang_keluar/tambah_2 4 53620 0 0
+/keluar/detail/BK1612062727 2 22392 0 0
+/.well-known/acme-challenge/P1TR11F-N4GEVB2DBUASZ3RWQFYUTKHM 2 128 0 0
+/keluar/get_autocomplete 6 152 0 0
+/keluar/cetak/BK1611839857 2 6984 0 0
+/uang/ubah/3 4 42728 0 0
+/pemasok/tambah 2 21852 0 0
+/.well-known/acme-challenge/XByv3q4PanHJf2wqtuS5OZO5rzUvCGjU7wxhh7Z7gvk 6 522 3 3
+/masuk/cetak/BM1611732024 10 44290 0 0
+/vendor/phpunit/phpunit/LICENSE 2 3084 1 1
+/landing/vendor/fontawesome-free/webfonts/fa-brands-400.ttf 2 269144 0 0
+/barang/ubah/WKK21154 2 33536 0 0
+/keluar/detail/BK1611788553 2 22654 0 0
+/masuk/detail/BM1611732024 2 22638 0 0
+/masuk/detail/BM1611839738 4 46028 0 0
+/.well-known/acme-challenge/BZN6E1Q9EFX_MUK9HKMNA9-1KCN1T2L- 2 128 0 1
+/pelanggan/tambah 2 21878 0 0
+/barang/ubah/TES21120 2 33534 0 0
+/masuk/get_all_gudang 14 2222 0 0
+/.well-known/acme-challenge/3KNCQSQEM4J-L8MV3EUHRKS-X1X20BK6 2 128 0 0
+/keluar/detail_surat/BK1611839857 4 46772 0 0
+/satuan/tambah 4 42380 0 0
+/pemasok 14 158170 0 0
+/landing/vendor/fontawesome-free/webfonts/fa-brands-400.woff 16 1453952 0 2
+/pemasok/export 4 8112 0 0
+/barang/tambah 16 233924 0 1
+/gudang 10 116068 0 0
+/keluar/cetak_surat_jalan/Sobat%20Masjid_files/css 4 30324 0 0
+/masuk/get_all_barang 18 2490 0 0
+/keluar/tambah_surat_jalan/BK1611788553 2 21748 0 0
+/kategori/ubah/1 2 21030 0 1
+/barang/ubah/COB2110 4 67048 0 0
+/masuk/detail/BM1611833885 4 45980 0 0
+/barang/ubah/TILAM21155 2 33940 0 0
+/keluar/detail/BK1611833956 2 22650 0 0
+/keluar/cetak_surat_jalan/BK1609224421 2 8002 0 0
+/landing/vendor/simple-line-icons/fonts/Simple-Line-Icons.ttf 18 973008 0 1
+/masuk/cetak/Sobat%20Masjid_files/css 18 146754 0 0
+/keluar/cetak/BK1611833956 2 6950 0 0
+/uang/tambah 8 96784 0 0
+/keluar/tambah_surat_jalan/BK1611393306 4 39260 0 0
+END_SIDER
