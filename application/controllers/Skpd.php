@@ -1,13 +1,15 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+defined('BASEPATH') or exit('No direct script access allowed');
 
 use Dompdf\Dompdf;
 
-class Skpd extends CI_Controller {
+class Skpd extends CI_Controller
+{
 
-	public function __construct(){
+	public function __construct()
+	{
 		parent::__construct();
-		if($this->session->login['role'] != 'pimpinan' && $this->session->login['role'] != 'admin') redirect();
+		if ($this->session->login['role'] != 'pimpinan' && $this->session->login['role'] != 'admin') redirect();
 		$this->data['aktif'] = 'skpd';
 		$this->load->model('M_skpd', 'm_skpd');
 		$this->load->helper('fungsi');
@@ -21,22 +23,26 @@ class Skpd extends CI_Controller {
 		$this->load->view('skpd/v_lihat', $this->data);
 	}
 
-	public function tambah(){
-		
+	public function tambah()
+	{
+
 		$this->data['title'] = 'Tambah SKPD';
 		$this->load->view('skpd/v_tambah', $this->data);
 	}
 
-	public function proses_tambah(){
-		
+	public function proses_tambah()
+	{
+
 		$data = [
-				'id_skpd' => $this->input->post('nomor_skpd'),
+			'id_skpd' => $this->input->post('nomor_skpd'),
 			'nama_skpd' => $this->input->post('nama_skpd'),
 			'alamat_skpd' => $this->input->post('alamat_skpd'),
-			'no_telpon' => $this->input->post('no_telpon')
+			'no_telpon' => $this->input->post('no_telpon'),
+			'username' => $this->input->post('username'),
+			'password' => md5($this->input->post('password')),
 		];
 
-		if($this->m_skpd->tambah($data)){
+		if ($this->m_skpd->tambah($data)) {
 			$this->session->set_flashdata('success', 'Data skpd <strong>Berhasil</strong> Ditambahkan!');
 			redirect('skpd');
 		} else {
@@ -45,24 +51,28 @@ class Skpd extends CI_Controller {
 		}
 	}
 
-	public function ubah($id){
-		
+	public function ubah($id)
+	{
+
 		$this->data['title'] = 'Ubah skpd';
 		$this->data['skpd'] = $this->m_skpd->lihat_id($id);
 		$this->load->view('skpd/v_ubah', $this->data);
 	}
 
-	public function proses_ubah($id){
-		
-		
+	public function proses_ubah($id)
+	{
+
+
 		$data = [
 			'id_skpd' => $this->input->post('nomor_skpd'),
 			'nama_skpd' => $this->input->post('nama_skpd'),
 			'alamat_skpd' => $this->input->post('alamat_skpd'),
-			'no_telpon' => $this->input->post('no_telpon')
+			'no_telpon' => $this->input->post('no_telpon'),
+			'username' => $this->input->post('username'),
+			'password' => md5($this->input->post('password')),
 		];
 
-		if($this->m_skpd->ubah($data, $id)){
+		if ($this->m_skpd->ubah($data, $id)) {
 			$this->session->set_flashdata('success', 'Data skpd <strong>Berhasil</strong> Diubah!');
 			redirect('skpd');
 		} else {
@@ -71,9 +81,10 @@ class Skpd extends CI_Controller {
 		}
 	}
 
-	public function hapus($id){
-		
-		if($this->m_skpd->hapus($id)){
+	public function hapus($id)
+	{
+
+		if ($this->m_skpd->hapus($id)) {
 			$this->session->set_flashdata('success', 'Data skpd <strong>Berhasil</strong> Dihapus!');
 			redirect('skpd');
 		} else {
@@ -82,7 +93,8 @@ class Skpd extends CI_Controller {
 		}
 	}
 
-	public function export(){
+	public function export()
+	{
 		$dompdf = new Dompdf();
 		$this->data['all_skpd'] = $this->m_skpd->lihat();
 		$this->data['title'] = 'Laporan Data skpd';

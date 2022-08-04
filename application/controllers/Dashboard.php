@@ -5,7 +5,7 @@ class Dashboard extends CI_Controller
 	public function __construct()
 	{
 		parent::__construct();
-		if ($this->session->login['role'] != 'pimpinan' && $this->session->login['role'] != 'admin') redirect();
+		if ($this->session->login['role'] != 'pimpinan' && $this->session->login['role'] != 'admin' && $this->session->login['role'] != 'skpd') redirect();
 
 		$this->load->model('M_pengguna', 'm_pengguna');
 		$this->load->model('M_dashboard', 'm_dashboard');

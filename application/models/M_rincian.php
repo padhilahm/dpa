@@ -14,11 +14,17 @@ class M_rincian extends CI_Model
 	public function lihat_rinci()
 	{
 
-		$query = $this->db->select('*');
-		$query = $this->db->from($this->_table);
+		$this->db->select('*');
+		$this->db->from($this->_table);
 		$this->db->join('tbl_dpa_sub', 'tbl_rincian.id_dpa_sub = tbl_dpa_sub.id_dpa_sub');
 		$this->db->join('tbl_sub_kegiatan', 'tbl_dpa_sub.id_sub_kegiatan = tbl_sub_kegiatan.id_sub_kegiatan');
 		$this->db->join('tbl_uraian', 'tbl_rincian.id_uraian = tbl_uraian.id_uraian');
+		$this->db->join('tbl_dpa', 'tbl_dpa.id_dpa = tbl_dpa_sub.id_dpa');
+		if ($this->session->login['role'] == 'skpd') {
+			$organisasi = $this->session->login['kode'];
+			$this->db->where('tbl_dpa.organisasi', $organisasi);
+		}
+
 		$query = $this->db->get();
 		return $query->result();
 	}

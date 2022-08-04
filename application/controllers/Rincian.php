@@ -7,12 +7,13 @@ class Rincian extends CI_Controller
 	public function __construct()
 	{
 		parent::__construct();
-		if ($this->session->login['role'] != 'pimpinan' && $this->session->login['role'] != 'admin') redirect();
+		if ($this->session->login['role'] != 'pimpinan' && $this->session->login['role'] != 'admin' && $this->session->login['role'] != 'skpd') redirect();
 		$this->data['aktif'] = 'rincian';
 		$this->load->model('M_rincian', 'm_rincian');
 		$this->load->model('M_uraian', 'm_uraian');
 		$this->load->model('M_satuan', 'm_satuan');
 		$this->load->model('M_sub_kegiatan', 'm_sub_kegiatan');
+		$this->load->model('M_sub_dpa', 'm_sub_dpa');
 		$this->load->helper('fungsi');
 	}
 
@@ -28,7 +29,7 @@ class Rincian extends CI_Controller
 	{
 		$this->data['aktif'] = 'rincian';
 		$this->data['title'] = 'Tambah Rincian DPA';
-		$this->data['all_sub'] = $this->m_sub_kegiatan->lihat();
+		$this->data['all_sub'] = $this->m_sub_dpa->lihat_by_organisasi();
 		$this->data['all_uraian'] = $this->m_uraian->lihat();
 		$this->data['all_satuan'] = $this->m_satuan->lihat();
 		$this->load->view('rincian/v_tambah', $this->data);
@@ -58,7 +59,7 @@ class Rincian extends CI_Controller
 		$this->data['aktif'] = 'rincian';
 		$this->data['title'] = 'Edit Rincian DPA';
 		$this->data['rincian'] = $this->m_rincian->lihat_id($id);
-		$this->data['all_sub'] = $this->m_sub_kegiatan->lihat();
+		$this->data['all_sub'] = $this->m_sub_dpa->lihat_by_organisasi();
 		$this->data['all_uraian'] = $this->m_uraian->lihat();
 		$this->data['all_satuan'] = $this->m_satuan->lihat();
 		$this->load->view('rincian/v_ubah', $this->data);

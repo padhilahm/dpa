@@ -7,7 +7,7 @@ class Dpa extends CI_Controller
 	public function __construct()
 	{
 		parent::__construct();
-		if ($this->session->login['role'] != 'petugas' && $this->session->login['role'] != 'admin') redirect();
+		if ($this->session->login['role'] != 'petugas' && $this->session->login['role'] != 'admin' && $this->session->login['role'] != 'skpd') redirect();
 		$this->data['aktif'] = 'dpa';
 		$this->load->model('M_dpa', 'm_dpa');
 		$this->load->model('M_skpd', 'm_skpd');
@@ -47,7 +47,7 @@ class Dpa extends CI_Controller
 
 		$this->data['aktif'] = 'sub_dpa';
 		$this->data['title'] = 'Tambah Sub Kegiatan DPA';
-		$this->data['all_dpa'] = $this->m_dpa->lihat();
+		$this->data['all_dpa'] = $this->m_dpa->lihat_by_organisasi();
 		$this->data['all_sub_kegiatan'] = $this->m_sub_kegiatan->lihat();
 
 		$this->load->view('sub_dpa/v_tambah', $this->data);

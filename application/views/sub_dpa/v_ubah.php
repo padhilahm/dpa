@@ -39,7 +39,7 @@
 														<option <?php if ($sub_dpa->id_dpa == $kat->id_dpa) {
 																	echo "selected";
 																} ?> value="<?= $kat->id_dpa ?>">
-															<?= $kat->id_dpa ?>
+															<?= $kat->id_dpa ?> - <?= $kat->nomor_dpa ?>
 														</option>
 
 													<?php } ?>
@@ -57,7 +57,7 @@
 										<div class="form-row">
 											<div class="form-group col-md-12">
 												<label for="sub_kegiatan"><strong>Sub Kegiatan</strong></label>
-								
+
 												<select name="sub_kegiatan" id="sub_kegiatan" class="form-control" required>
 													<?php foreach ($all_sub_kegiatan as $sub) { ?>
 														<option <?php if ($sub_dpa->id_sub_kegiatan == $sub->id_sub_kegiatan) {
@@ -75,24 +75,24 @@
 										<div class="form-row">
 											<div class="form-group col-md-8">
 												<label for="sumber_dana"><strong>Sumber Pendanaan</strong></label>
-												<input type="text" name="sumber_dana" value="<?=  $sub_dpa->sumber_dana ?>" id="sumber_dana" placeholder="Masukkan Sumber Pendanaan. . ." autocomplete="off" class="form-control" required>
+												<input type="text" name="sumber_dana" value="<?= $sub_dpa->sumber_dana ?>" id="sumber_dana" placeholder="Masukkan Sumber Pendanaan. . ." autocomplete="off" class="form-control" required>
 											</div>
 
 											<div class="form-group col-md-4">
 												<label for="lokasi"><strong>Lokasi</strong></label>
-												<input type="text" name="lokasi" id="lokasi" placeholder="Masukkan Lokasi. . ." value="<?=  $sub_dpa->lokasi_dpa_sub ?>" autocomplete="off" class="form-control" required>
+												<input type="text" name="lokasi" id="lokasi" placeholder="Masukkan Lokasi. . ." value="<?= $sub_dpa->lokasi_dpa_sub ?>" autocomplete="off" class="form-control" required>
 											</div>
 										</div>
 
 										<div class="form-row">
 											<div class="form-group col-md-8">
 												<label for="indikator"><strong>Indikator</strong></label>
-												<input type="text" name="indikator" id="indikator" placeholder="Masukkan Indikator. . ." value="<?=  $sub_dpa->indikator_keluaran ?>" class="form-control" required>
+												<input type="text" name="indikator" id="indikator" placeholder="Masukkan Indikator. . ." value="<?= $sub_dpa->indikator_keluaran ?>" class="form-control" required>
 											</div>
 
 											<div class="form-group col-md-4">
 												<label for="target"><strong>Target</strong></label>
-												<input type="text" name="target" id="target" placeholder="Masukkan Target. . ." value="<?=  $sub_dpa->target_keluaran ?>" autocomplete="off" class="form-control" required>
+												<input type="text" name="target" id="target" placeholder="Masukkan Target. . ." value="<?= $sub_dpa->target_keluaran ?>" autocomplete="off" class="form-control" required>
 											</div>
 										</div>
 										<hr>

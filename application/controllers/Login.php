@@ -1,17 +1,22 @@
 <?php
 
-class Login extends CI_Controller{
-	public function __construct(){
+class Login extends CI_Controller
+{
+	public function __construct()
+	{
 		parent::__construct();
 		date_default_timezone_set('Asia/Jakarta');
 		$this->load->model('M_pengguna', 'm_pengguna');
+		$this->load->model('M_skpd', 'M_skpd');
 	}
 
-	public function index(){
+	public function index()
+	{
 		$this->load->view('v_profil');
 	}
 
-	public function login(){
+	public function login()
+	{
 		$this->load->view('v_login');
 	}
 
@@ -31,24 +36,30 @@ class Login extends CI_Controller{
 				'role' => $get_petugas->role
 			];
 
-			$this->session->set_userdata('login',$session);
+			$this->session->set_userdata('login', $session);
 
 			if ($get_petugas->role == 'admin') {
 				redirect('dashboard');
-			}
-			else if ($get_petugas->role == 'pimpinan') {
+			} else if ($get_petugas->role == 'pimpinan') {
 				redirect('dashboard');
-			}else{
+			} else {
 				redirect('dashboard');
 			}
+		} else {
+			$get_skpd = $this->M_skpd->lihat_username($user, $pass);
+			if ($get_skpd) {
+				$session = [
+					'kode' => $get_skpd->id_skpd,
+					'nama' => $get_skpd->nama_skpd,
+					'username' => $get_skpd->username,
+					'role' => $get_skpd->role
+				];
 
-		}
-		else{
+				$this->session->set_userdata('login', $session);
+				redirect('dashboard');
+			}
 			$this->session->set_flashdata('error', 'Username atau Password Salah!');
-			redirect('login/login','refresh');
+			redirect('login/login', 'refresh');
 		}
-
 	}
-
-
 }
